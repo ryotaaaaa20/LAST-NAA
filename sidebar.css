@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+} 
+body {
+    background-color: var(--primary-color);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.wrapper .sidenav {
+    position: fixed;
+    top: 75px;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background-image: linear-gradient(rgb(65, 1, 65), rgb(40, 1, 40));
+    width: 50px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.sidebarlink {
+    position: relative;     
+    color: white;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.book {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.nav-item {
+    position: relative;
+    margin-left: 10px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.sidebarlink:hover{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0 10px 3px plum;
+}
+.wrapper .sidenav:hover{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0 10px 3px plum;
+    width: 200px;
+    transition: all 0.5s ease;
+}
+.list-items {
+    list-style: none;
+    line-height: 30px;
+}
+.side-items {
+    margin-left: 17px;
+}
+.alaala {
+    position: relative;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.main-content {
+    margin-left: 100px;
+}
+section {
+    color: var(--secondary-color);
+    padding: 30px;
+}  
+.sub-item {
+    color: white;
+    height: 15px;
+    line-height: 30px;
+    margin-left: 20px;
+    position: static;
+    display: block;
+}
+#mode {
+    width: 30px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+:root {
+    --primary-color: aliceblue;
+    --secondary-color: rgb(38, 33, 33);
+}
+.dark-theme {
+    --primary-color: black;
+    --secondary-color: aliceblue;
+}

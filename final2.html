@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="icon" href="titleicon.jpg" type="image/x-icon">
+    <title>CSS TUTORIAL</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="content2.css">
+    <link rel="stylesheet" href="flipcard2.css">
+    <link rel="stylesheet" href="cssnav.css">
+</head>
+<body>
+        <!-- header design -->
+        <header>
+            <img class="tatak" src="tatak.png" alt="logo">
+         <div class="ulo">
+                <button class="home" onclick="location.href='mainpage.html'" target="_blank">Home</button>
+                <button class="html1" onclick="location.href='final.html'" target="_blank">Html</button>
+                <button class="css" onclick="location.href='final2.html'">Css</button>
+                <button class="javascript" onclick="location.href='final3.html'">JavaScript</button>
+
+                 <img src="moon.png" id="mode">
+        </div>
+        </header>
+        <!-- sidebar -->
+    <div class="maindiv">
+    <div class="wrapper">
+        <div class="sidenav">
+      <nav id="sidebar">
+        <ul class="list-items">
+             <li class="icon" style="background-color: black; font-weight: 1000; font-size: 25px; margin-bottom: 20px;">
+                <a class="sidebarlink" href="#">
+                    <img class="book" src="logo3.png" alt="book"><i class="alaala"></i><span class="alaala">CSS LESSON</span>
+                </a>
+            </li>
+            
+            <li class="icon">
+                
+                <a class="sidebarlink" href="#pakilala">
+                   <i class="side-items"></i><span class="nav-item">WELCOME TO CSS</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#basictutorial">
+                   <i class="side-items"></i><span class="nav-item">BASIC Tutorial</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#syntax">
+                   <i class="side-items"></i><span class="nav-item">CSS Syntax</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#selectors">
+                    <i class="side-items"></i><span class="nav-item">CSS Selectors</span>
+                </a>
+            </li>
+             <li class="icon">
+                <a class="sidebarlink" href="#howto">
+                    <i class="side-items"></i><span class="nav-item">How to add CSS</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#borders">
+                    <i class="side-items"></i><span class="nav-item">CSS Borders</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#margins">
+                    <i class="side-items"></i><span class="nav-item">CSS Margins</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#padding">
+                    <i class="side-items"></i><span class="nav-item">CSS Padding</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#comments">
+                    <i class="side-items"></i><span class="nav-item">CSS Comments</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div> 
+    </div>
+    <div class="main-content">
+    <section id="pakilala">
+        <br>         
+        <br>
+        <br>
+               <h2 style="margin-left: 100px;" class="welcome"></h2>
+               <br>
+               <div class="introP">
+                    <div class="card">
+                        <div class="face front">
+                            <img src=  "cssintropic.png" alt="intro">
+                        </div>
+                        <div class="face back">
+                            <h3>INTRODUCTION</h3>
+                            <p class="simula">CSS also known as "Cascading Style Sheets", CSS is a styling language for web pages, used with HTML. It controls appearance through selectors, properties, and values. Stylesheets link to HTML or can be inline. Specificity determines style precedence. The box model controls layout. CSS enables responsive design. Advanced features include transitions, animations, flexbox, and grids. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face front">
+                            <img src="csshistory.png" alt="HISTORY">
+                        </div>
+                        <div class="face back">
+                            <h3>HISTORY</h3>
+                            <p class="history">CSS has a history dating back to the early days of the web. It started with CSS1 in 1996, offering basic styling capabilities. CSS2 followed in 1998, introducing more features. CSS3 is a collection of modules that brought advanced selectors, media queries, animations, flexbox, and grid layout. There is no official CSS4; instead, new modules are continually added to the CSS3 specification. CSS has evolved to enhance web design and user experience on the internet.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face front">
+                            <img src=  "csspurpose.png" alt="PURPOSE">
+                        </div>
+                        <div class="face back">
+                            <h3>PURPOSE</h3>
+                            <p class="purpose">CSS serves the purpose of separating the visual styling of web content from its structure. It allows for consistent and visually appealing styles across web pages, provides layout and positioning control, improves maintainability, supports accessibility features, and enhances efficiency in web development. CSS enhances the visual appearance and user experience of web pages while improving code organization and efficiency.</p>
+                        </div>
+                    </div>
+            </div>
+            </section>
+             <section id="basictutorial">
+                <br>         
+                <br>
+                <br>
+                <br>
+                <h2 style="margin-left: 100px;">BASIC Tutorial</h2>
+                <br>
+                <br>
+                <div class="cssvid">
+                    <video controls src="cssvideo.mp4" width="850" height="auto"></video>
+                </div>
+             </section>
+             <div class="usoglahat">
+              <section id="syntax">
+                <br>         
+                <br>
+                <br>
+                <br>
+                <h2>CSS Syntax</h2>
+                <br>
+                <p>
+                    CSS syntax consists of a selector followed by a declaration block enclosed in curly braces. <br><br> The declaration block contains one or more declarations separated by semicolons. <br> <br> Each declaration includes a property and its corresponding value.
+                </p>
+                <br>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="syntaxcode">
+                    p {
+                        margin-bottom: 20px;
+                        line-height: 1.5;
+                      }
+                </xmp>
+             </section>
+             <section id="selectors">
+                <br>         
+                <br>
+                <br>
+                <br>
+                <h2>CSS Selectors</h2>
+                <br>
+                <p>
+                    CSS selectors target specific HTML elements for styling. They can be based on element names, classes, IDs, attributes, or relationships between elements. Selectors play a key role in applying styles to the desired parts of a webpage.
+                </p>
+                <br>
+                <h3>CSS Element Selector</h3>
+                <br>
+                <p>
+                    The element selector selects HTML elements based on the element name.
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="syntaxcode">
+                    p {
+                        text-align: center;
+                        color: red;
+                      }
+                </xmp>
+                <br>
+                <h3>CSS Id Selector</h3>
+                <br>
+                <p>
+                    The id selector uses the id attribute of an HTML element to select a specific element.
+
+                    The id of an element is unique within a page, so the id selector is used to select one unique element!
+
+                    To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="syntaxcode">
+                    #para1 {
+                        text-align: center;
+                        color: red;
+                      }
+                </xmp>
+                <br>
+                <h3>CSS Class selector</h3>
+                <br>
+                <p>
+                    The class selector selects HTML elements with a specific class attribute.
+
+                    To select elements with a specific class, write a period (.) character, followed by the class name.
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="syntaxcode">
+                    .center {
+                        text-align: center;
+                        color: red;
+                      }
+                </xmp>
+             </section>
+              <section id="howto">
+                <br>         
+                <br>
+                <br>
+                <br>
+               <h2>CSS How To Add</h2>
+                <br>
+                <p>
+                    CSS can be added to HTML documents in various ways: inline styles within HTML tags, internal styles using the &lt;style&gt; element in the document head, or external styles by linking to a separate CSS file. External styles are recommended for better organization and reusability.
+                </p>
+                <br>
+                <p>
+                    There are Three ways to insert CSS
+                </p>
+                <br>
+                <p>
+                    Inline CSS <br>
+                    <br>
+                    Internal CSS <br>
+                    <br>
+                    External CSS
+                </p>
+                <br>
+                <h3>Inline CSS</h3>
+                <br>
+                <p>
+                    An inline style may be used to apply a unique style for a single element.
+
+                    To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="addinline">
+                    <!DOCTYPE html>
+                    <html>
+                    <body>
+
+                    <h1 style="color:green;text-align:center;">This is a heading</h1>
+                    <p style="color:pink; text-align: center;">This is a paragraph.</p>
+
+                    </body>
+                    </html>
+                </xmp>
+                <br>
+                <h3>Inline CSS Output:</h3>
+                <br>
+                <img src="inline css.png" alt="inline">
+                <br>
+                <br>
+                <h3>Internal CSS</h3>
+                <br>
+                <p>
+                    An internal style sheet may be used if one single HTML page has a unique style.
+
+                    The internal style is defined inside the &lt;style&gt; element, inside the head section.
+                </p>     
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="addinternal">
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                    <style>
+                    body {
+                    background-color: yellow;
+                    }
+
+                    h1 {
+                    color: red;
+                    margin-left: 40px;
+                    }
+                    </style>
+                    </head>
+                    <body>
+
+                    <h1>This is a heading</h1>
+                    <p>This is a paragraph.</p>
+
+                    </body>
+                    </html>
+                </xmp>
+                <br>
+                <h3>Internal CSS Output:</h3>
+                <br>
+                <img src="internal css.png" alt="internal">
+                <br>
+                <br>
+                <h3>External CSS</h3>
+                <br>
+                <p>
+                    With an external style sheet, you can change the look of an entire website by changing just one file!
+
+                    Each HTML page must include a reference to the external style sheet file inside the &lt;link&gt; element, inside the head section.
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="addexternal">
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                    <link rel="stylesheet" href="mystyle.css">
+                    </head>
+                    <body>
+                    <h1>This is a heading</h1>
+                    <p>This is a paragraph.</p>
+                    </body>
+                    </html>
+                </xmp>
+                <br>
+                <h3>mystyle.css</h3>
+                <br>
+                <xmp class="addexternal">
+                    body {
+                        background-color: lightblue;
+                      }
+                      
+                      h1 {
+                        color: navy;
+                        margin-left: 20px;
+                      }
+                      p {
+                        color: red;
+                      }
+                </xmp>
+                <h3>External CSS Output:</h3>
+                <br>
+                <img src="external css.png" alt="external">
+                
+             </section>
+             <section id="borders">
+                <br>         
+                <br>
+                <br>
+                <br>
+               <h2>CSS Borders</h2>
+                <br>
+                <p>
+                    CSS borders are used to define the appearance of an element's border. <br><br>Properties like border-width, border-style, and border-color control the border's thickness, style, and color, respectively. <br><br> For example, border: 2px solid #000; creates a solid black border with a thickness of 2 pixels.
+                </p>
+                <br>
+                <h3>CSS Borders Style</h3>
+                <br>
+                <p>
+                    The border-style property specifies what kind of border to display. 
+                    <br> 
+                    <br>
+
+                    The following values are allowed: 
+                    <br>
+                </p>
+                <br>
+                <br>
+                 <div class="dot">
+                    <p>
+                    dotted - Defines a dotted border 
+                    <br>
+                    <br>
+                    dashed - Defines a dashed border 
+                    <br>
+                    <br>
+                    solid - Defines a solid border 
+                    <br>
+                    <br>
+                    double - Defines a double border 
+                    <br>
+                    <br>
+                    groove - Defines a 3D grooved border. The effect depends on the border-color value 
+                    <br>
+                    <br>
+                    ridge - Defines a 3D ridged border. The effect depends on the border-color value 
+                    <br>
+                    <br>
+                    inset - Defines a 3D inset border. The effect depends on the border-color  
+                    <br>
+                    <br>
+                    outset - Defines a 3D outset border. The effect depends on the border-color value 
+                    <br>
+                    <br>
+                    none - Defines no border 
+                    <br>
+                    <br>
+                    hidden - Defines a hidden borders
+                    <br>
+                    <br>
+                    The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).
+                </p>
+                </div>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="bordercode">
+                    p.dotted {border-style: dotted;}
+                    p.dashed {border-style: dashed;}
+                    p.solid {border-style: solid;}
+                    p.double {border-style: double;}
+                    p.groove {border-style: groove;}
+                    p.ridge {border-style: ridge;}
+                    p.inset {border-style: inset;}
+                    p.outset {border-style: outset;}
+                    p.none {border-style: none;}
+                    p.hidden {border-style: hidden;}
+                    p.mix {border-style: dotted dashed solid double;}
+                </xmp>
+                <br>
+                <h3>Border Style Output:</h3>
+                <img src="border style output.png" alt="border">
+             </section>
+
+             <section id="margins">
+                <br>         
+                <br>
+                <br>
+                <br>
+               <h2>CSS Margins</h2>
+                <br>
+                <p>
+                    Margins in CSS create space around an element's outside edges. <br> <br> The margin property sets the margin for all sides, or individual properties like <br><br>margin-top, margin-right, margin-bottom, and margin-left <br><br>can be used to define margins for specific sides.
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="margincode">
+                    p {
+                        margin-top: 100px;
+                        margin-bottom: 100px;
+                        margin-right: 150px;
+                        margin-left: 80px;
+                      }
+                </xmp>
+                <br>
+                <h3>Margins Output:</h3>
+                <br>
+                <img src="margins output.png" alt="margin">
+             </section>
+               <section id="padding">
+                <br>         
+                <br>
+                <br>
+                <br>
+               <h2>CSS Padding</h2>
+                <br>
+                <p>
+                    Padding in CSS defines the space between an element's content and its border. <br> <br> The padding property sets padding for all sides, while individual properties like <br> <br>padding-top, padding-right, padding-bottom, and padding-left allow you to specify padding for specific sides. <br> <br>    Proper use of padding contributes to better layout and spacing of content within an element.
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="paddingcode">
+                    div {
+                        padding-top: 50px;
+                        padding-right: 30px;
+                        padding-bottom: 50px;
+                        padding-left: 80px;
+                      }
+                </xmp>
+                <br>
+                <h3>Padding Output</h3>
+                <br>
+                <img src="padding output.png" alt="padding">
+             </section>
+             <section id="comments">
+                <br>         
+                <br>
+                <br>
+                <br>
+                <h2>CSS Comments</h2>
+                <br>
+                <p>
+                    Comments are used to explain the code, and may help when you edit the source code at a later date.
+                    <br>
+                    <br>
+                    Comments are ignored by browsers.
+                    <br>
+                    <br>
+                    A CSS comment is placed inside the &lt;style&gt; element, and starts with <xmp>/* and ends with */:</xmp>
+                </p>
+                <br>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="commentscode">
+                    /* This is
+                    a multi-line
+                    comment */
+
+                    p {
+                    color: red;
+                    }
+                </xmp>
+                <br>
+             </section>
+             </div>
+        </div>
+        
+            
+             
+      <script src="final2.js"></script>
+      <script src="darkmode.js"></script>
+   </body>
+</html>

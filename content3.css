@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+.html {
+  height: 90px;
+  width: auto;
+  display: inline-block;
+}
+.intro {
+  font-size: 20px;
+  display: inline-block;
+}
+.tao {
+  height: 250px;
+  width: auto;
+  margin-left: 500px;
+  display: inline-block;
+}
+.outputcode1 {
+  font-size: 20px;
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  height: 500px;
+  width: 1220px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.document {
+  font-size: 20px;
+}
+h2 {
+  color: rgb(245, 245, 38);
+  font-size: 40px;
+  text-underline-position: white;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+xmp {
+  color: rgb(184, 3, 184);
+  font-size: 18px;
+  font-weight: 1000;
+  text-underline-position: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table, th, td {
+  border: 1px solid var(--secondary-color);
+  padding: 5px;
+  margin-left: 100px;
+}
+h3 {
+  color: rgb(213, 213, 104);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.whereto1 {
+  border: 1px solid var(--secondary-color);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  height: 150px;
+  width: 1220px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.exampletable {
+  border: 2px solid rgb(147, 145, 145);
+  border-radius: 25px;
+  background-color: rgb(148, 141, 141);
+  opacity: 1;
+  box-shadow: 0 0 20px 5px rgb(140, 140, 140) ;
+}
+.exampletable h3{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.tableoutput {
+  margin-left: 115px;
+  margin-bottom: 50px;
+}
+.welcome {
+  color: rgb(242, 250, 135);
+  font-size: 50px;
+  font-family: "Black Ops One", sans-serif;
+}
+.whereto2 {
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  height: 500px;
+  width: 1220px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.whereto3{
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  height: 520px;
+  width: 1220px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.syntax3code{
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  height: 250px;
+  width: 1220px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.syntax3code p{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.outputcode2{
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  height: 400px;
+  width: 1220px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.outputcode3{
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  height: 400px;
+  width: 1220px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.outputcode4{
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  height: 300px;
+  width: 1220px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.variablescode{
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  height: 800px;
+  width: 1220px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.variablescode #variableslaman{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.letcode{
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  height: 280px;
+  width: 1220px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.letcode #letlaman{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.letcode2{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 180px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+  .letcode2 #letlaman2{
+      margin-left: 100px;
+      margin-top: 30px;
+  }
+  .letcode3{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 380px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+  .letcode3 #letlaman3{
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+  .constcode{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 200px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+  .constcode #constlaman{
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+.cssvid{
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 2px plum;
+  border-radius: 20px;
+}
+.usoglahat {
+  margin-left: 100px;
+}
+
+:root {
+  --primary-color: aliceblue;
+  --secondary-color: black;
+}
+.dark-theme {
+  --primary-color: black;
+  --secondary-color: aliceblue;
+}

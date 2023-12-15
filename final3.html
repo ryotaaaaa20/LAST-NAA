@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="titleicon.jpg" type="image/x-icon">
+    <title>JAVASCRIPT TUTORIAL</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="content3.css">
+    <link rel="stylesheet" href="flipcard3.css">
+    <link rel="stylesheet" href="jsnav.css">
+</head>
+<body>
+        <!-- header design -->
+        <header>
+            <img class="tatak" src="tatak.png" alt="logo">
+         <div class="ulo">
+                <button class="home" onclick="location.href='mainpage.html'" target="_blank">Home</button>
+                <button class="html1" onclick="location.href='final.html'" target="_blank">Html</button>
+                <button class="css" onclick="location.href='final2.html'">Css</button>
+                <button class="javascript" onclick="location.href='final3.html'">JavaScript</button>
+
+                 <img src="moon.png" id="mode">
+        </div>
+        </header>
+        <!-- sidebar -->
+    <div class="maindiv">
+    <div class="wrapper">
+        <div class="sidenav">
+      <nav id="sidebar">
+        <ul class="list-items">
+             <li class="icon" style="background-color: black; font-weight: 1000; font-size: 25px; margin-bottom: 20px;">
+                <a class="sidebarlink" href="#">
+                    <img class="book" src="logo3.png" alt="book"><i class="alaala"></i><span class="alaala">JS LESSON</span>
+                </a>
+            </li>
+            
+            <li class="icon">
+                
+                <a class="sidebarlink" href="#pakilala">
+                   <i class="side-items"></i><span class="nav-item">WELCOME TO JS</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#basictutorial">
+                   <i class="side-items"></i><span class="nav-item">BASIC Tutorial</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#whereto">
+                   <i class="side-items"></i><span class="nav-item">JS Where to</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#syntax3">
+                    <i class="side-items"></i><span class="nav-item">JS Syntax</span>
+                </a>
+            </li>
+             <li class="icon">
+                <a class="sidebarlink" href="#output">
+                    <i class="side-items"></i><span class="nav-item">JS Output</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#variables">
+                    <i class="side-items"></i><span class="nav-item">JS Variables</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#let">
+                    <i class="side-items"></i><span class="nav-item">JS Let</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#const">
+                    <i class="side-items"></i><span class="nav-item">JS Const</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a class="sidebarlink" href="#operators">
+                    <i class="side-items"></i><span class="nav-item">JS operators</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div> 
+    </div>
+    <div class="main-content">
+    <section id="pakilala">
+        <br>         
+        <br>
+        <br>
+               <h2 style="margin-left: 100px;" class="welcome"></h2>
+               <br>
+               <div class="introP">
+                    <div class="card">
+                        <div class="face front">
+                            <img src=  "jsintro.png" alt="intro">
+                        </div>
+                        <div class="face back">
+                            <h3>INTRODUCTION</h3>
+                            <p class="simula">JavaScript is a high-level programming language used for web development. It runs on both the client-side and server-side and allows for interactive web pages by manipulating HTML and CSS. JavaScript provides programming capabilities, DOM manipulation, event handling, access to browser APIs, and has a vast ecosystem of libraries and frameworks. It is widely supported and enables the creation of dynamic and engaging web experiences.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face front">
+                            <img src="jshistory.png" alt="HISTORY">
+                        </div>
+                        <div class="face back">
+                            <h3>HISTORY</h3>
+                            <p class="history">JavaScript was created in the mid-1990s by Brendan Eich. It became popular for web scripting, underwent standardization, and introduced significant enhancements with ECMAScript versions. It expanded to server-side development with Node.js. JavaScript is now widely used for dynamic web experiences.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face front">
+                            <img src=  "jspurpose.png" alt="PURPOSE">
+                        </div>
+                        <div class="face back">
+                            <h3>PURPOSE</h3>
+                            <p class="purpose">JavaScript's purpose is to provide interactivity and dynamic functionality to web pages. It allows for real-time updates, interactive elements, and form validation. JavaScript can manipulate the DOM, access browser APIs, and is used for both client-side and server-side development. It enhances user experience and is essential for building web applications.</p>
+                        </div>
+                    </div>
+            </div>
+            </section>
+             <section id="basictutorial">
+                <br>         
+                <br>
+                <br>
+                <br>
+                <h2 style="margin-left: 100px;">BASIC Tutorial</h2>
+                <br>
+                <br>
+                <div class="cssvid">
+                    <video controls src="jsvid.mp4" width="850" height="auto"></video>
+                </div>
+             </section>
+             <div class="usoglahat">
+             <section id="whereto">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>JavaScript Where to add</h2>
+                <br>
+                <p>
+                    JavaScript code is typically embedded in HTML files or included as separate script files. It can be placed in the &lt;script&gt; tags within the HTML document, either in the &lt;head&gt; or &lt;body&gt; section.
+                </p>
+                <br>
+                <h3>
+                    The &lt;script&gt; Tag
+                </h3>
+                <br>
+                <p>
+                    In HTML, JavaScript code is inserted between &lt;script&gt; and &lt;script&gt; tags.
+                </p>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="whereto1">
+                    <script>
+                        document.getElementById("demo").innerHTML = "First JS";
+                    </script>
+                </xmp>
+                <br>
+                <h3>JavaScript in &lt;head&gt;</h3>
+                <br>
+                <p>
+                    In this example, a JavaScript function is placed in the &lt;head&gt; section of an HTML page.
+                    <br>
+                    The function is invoked (called) when a button is clicked:
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="whereto2">
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                    <script>
+                    function myFunction() {
+                    document.getElementById("tutorial").innerHTML = "nag palit ng paragraph.";
+                    }
+                    </script>
+                    </head>
+                    <body>
+                    <h2>Tutorial JavaScript in head</h2>
+
+                    <p id="tutorial">Paragraph</p>
+                    <button type="button" onclick="myFunction()">click it</button>
+
+                    </body>
+                    </html>
+                </xmp>
+                <h3>JS in head output:</h3>
+                <br>
+                <h3>before click</h3>
+                <br>
+                <img src="before click.png" alt="before">
+                <br>
+                <h3>after click</h3>
+                <br>
+                <img src="after click.png" alt="after">
+                <br>
+                <br>
+                <br>
+                <h3>JavaScript in &lt;body&gt;</h3>
+                <br>
+                <p>
+                    In this example, a JavaScript function is placed in the &lt;body&gt; section of an HTML page.
+                    <br>
+                    The function is invoked (called) when a button is clicked:
+                </p>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="whereto3">
+                    <!DOCTYPE html>
+                    <html>
+                    <body>
+
+                    <h2>Tutorial JavaScript in Body</h2>
+
+                    <p id="tutorial">salita</p>
+
+                    <button type="button" onclick="myFunction()">pindutin</button>
+
+                    <script>
+                    function myFunction() {
+                    document.getElementById("tutorial").innerHTML = "salita changed.";
+                    }
+                    </script>
+
+                    </body>
+                    </html>
+                </xmp>
+                <br>
+                <h3>JS in body output:</h3>
+                <br> 
+                <h3>before click</h3>
+                <br>
+                <img src="before body.png" alt="before">
+                <br>
+                <h3>after click</h3>
+                <br>
+                <img src="after body.png" alt="after">
+                <br>
+             </section>
+
+             <section id="syntax3">
+                                <br>
+                <br>
+                <br>
+                <br>
+                <h2>JavaScript Syntax</h2>
+                <br>
+                <p>
+                    JavaScript follows a C-style syntax with statements and expressions. <br> <br> It's case-sensitive and uses semicolons to separate statements. <br> <br> Basic syntax includes variables, operators, functions, and control flow constructs like loops and conditionals.
+                </p>
+                <br>
+                <p>
+                    JavaScript syntax is the set of rules, how JavaScript programs are constructed:
+                </p>
+                <br>
+                <div class="syntax3code">
+                <p style="color: rgb(184, 3, 184);">
+                    // How to create variables: <br>
+                    var x; <br>
+                    let y; <br>
+                    <br>
+                    // How to use variables: <br>
+                    x = 5; <br>
+                    y = 6; <br>
+                    let z = x + y; 
+                </p>
+                </div>
+             </section>
+
+             <section id="output">
+                                <br>
+                <br>
+                <br>
+                <br>
+                <h2>JavaScript Output</h2>
+                <br>
+                <p> 
+                    The console.log() function is commonly used for output in JavaScript. <br> <br>It prints messages to the browser console, helping developers debug and understand the flow of their code.  
+                </p> 
+                <br>
+                <h3>JavaScript Display Possibilities</h3>
+                <br>
+                <p>
+                    JavaScript can "display" data in different ways: <br> <br>
+                </p>
+                <p>
+                    Writing into an HTML element, using innerHTML. <br> <br>
+                    Writing into the HTML output using document.write(). <br> <br>
+                    Writing into an alert box, using window.alert(). <br> <br>
+                    Writing into the browser console, using console.log().
+                </p>
+                <br>
+                <br>
+                <h3>Using innerHTML</h3>
+                <br>
+                <p>
+                    To access an HTML element, JavaScript can use the document.getElementById(id) method.
+                    <br> <br>
+                    The id attribute defines the HTML element. The innerHTML property defines the HTML content:
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="outputcode1">
+                    <!DOCTYPE html>
+                    <html>
+                    <body>
+
+                    <h1>Using innerHTML</h1>
+                    <p>innerHTML</p>
+
+                    <p id="demo"></p>
+
+                    <script>
+                    document.getElementById("demo").innerHTML = 5 + 6;
+                    </script>
+
+                    </body>
+                    </html>
+                </xmp>
+                <br>
+                <h3>innerHTML Output:</h3>
+                <br> 
+                <img src="innerHTML.png" alt="innerHTML">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3>Using document.write()</h3>
+                <br>
+                <p>
+                    For testing purposes, it is convenient to use document.write():
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="outputcode2">
+                    <!DOCTYPE html>
+                    <html>
+                    <body>
+
+                    <h1>Using document.write()</h1>
+                    <p>document.write()</p>
+
+                    <script>
+                    document.write(9 + 6);
+                    </script>
+
+                    </body>
+                    </html>
+                </xmp>
+                <br>
+                <h3>document.write() output:</h3>
+                <br>
+                <img src="document.write.png" alt="document">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3>Using window.alert()</h3>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="outputcode3">
+                    <!DOCTYPE html>
+                    <html>
+                    <body>
+
+                    <h1>Using window.alert()</h1>
+                    <p>window.alert()</p>
+
+                    <script>
+                    window.alert(5 + 15);
+                    </script>
+
+                    </body>
+                    </html>
+                </xmp>
+                <br>
+                <h3>window.alert() output:</h3>
+                <br>
+                <h4>before load</h4>
+                <img src="window.alert.png" alt="window">
+                <h4>after load</h4>
+                <img src="window.alert2.png" alt="window" height="150px" width="auto">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3>Using console.log()</h3>
+                <br>
+                <p>
+                    For debugging purposes, you can call the console.log() method in the browser to display data.
+                </p>
+                <br>
+                <h3>Example:</h3>
+                <br>
+                <xmp class="outputcode4">
+                    <!DOCTYPE html>
+                    <html>
+                    <body>
+
+                    <script>
+                    console.log(24 + 6);
+                    </script>
+
+                    </body>
+                    </html>
+                </xmp>
+                <br>
+                <h3>console.log() output:</h3>
+                <br>
+                <img src="console.log.png" alt="console">
+             </section>
+
+             <section id="variables">
+                                <br>
+                <br>
+                <br>
+                <br>
+                <h2>JavaScript Variables</h2> 
+                <br>
+                <p>
+                Variables are containers for storing data values. In JavaScript, you declare a variable using var, let, or const.
+                 </p>
+                 <br>
+                 <br>
+                  <h3>For example:</h3>
+                <br> 
+               <div class="variablescode">
+                <div id="variableslaman">
+                <p style="color: rgb(184, 3, 184);">
+                var x = 10; <br>
+                let y = "Hello"; <br>
+                const z = x = y;
+                </p>
+                <br>
+                <br>
+                <h3>Example using var</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    var x = 5; <br> <br>
+                    var y = 6; <br> <br>
+                    var z = x + y; 
+                </p>
+                <br>
+                <h3>Example using let</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    let x = 5; <br> <br>
+                    let y = 6; <br> <br>
+                    let z = x + y;
+                </p>
+                <br>
+                <h3>Example using const</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    const x = 5; <br> <br>
+                    const y = 6; <br> <br>
+                    const z = x + y;
+                </p>
+                <br>
+                <h3>Mixed Example</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    const price1 = 5; <br> <br>
+                    const price2 = 6; <br> <br>
+                    let total = price1 + price2;
+                </p>
+                </div>
+                </div>
+             </section>
+
+             <section id="let">
+                                <br>
+                <br>
+                <br>
+                <br>
+                <h2>JavaScript Let</h2>
+                <br>
+                <p>
+                    let is used to declare variables with block scope, <br> <br> meaning they are limited to the block (pair of curly braces) in which they are defined. <br> <br> It allows reassignment of values.
+                </p>
+                <br>
+                <h3>remember:</h3>
+                <p>
+                    The let keyword was introduced in ES6 (2015)
+                    <br> <br>
+                    Variables defined with let cannot be Redeclared
+                    <br> <br>
+                    Variables defined with let must be Declared before use
+                    <br> <br>
+                    Variables defined with let have Block Scope
+                </p>
+                <br>
+                <h3>Cannot be Redeclared</h3>
+                <p>
+                    Variables defined with let can not be redeclared.
+                    <br> <br>
+                    You can not accidentally redeclare a variable declared with let.
+                </p>
+                <br>
+                <br>
+                <div class="letcode">
+                    <div id="letlaman">
+                <h3>With let you can not do this:</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    let x = "John Doe";
+                    <br> <br>
+                    let x = 0;
+                </p>
+                <br>
+                <h3>With var you can:</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    var x = "John Doe";
+                    <br> <br>
+                    var x = 0;
+                </p>
+                </div>
+                </div>
+                <br>
+                <br>
+                <h3>Block Scope</h3>
+                <br>
+                <p>
+                    Before ES6 (2015), JavaScript had Global Scope and Function Scope.
+                    <br> <br>
+                    ES6 introduced two important new JavaScript keywords: let and const.
+                    <br> <br>
+                    These two keywords provide Block Scope in JavaScript.
+                    <br> <br>
+                    Variables declared inside a { } block cannot be accessed from outside the block:
+                </p>
+                <br>
+                <br>
+                <div class="letcode2">
+                    <div id="letlaman2">
+                <h3>Example:</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    { <br>
+                        let x = 2; <br>
+                      } <br>
+                      // x can NOT be used here
+                </p>
+                    </div>
+                </div>
+                <br>
+                <p>
+                    Variables declared with the var keyword can NOT have block scope.
+                    <br> <br>
+                    Variables declared inside a { } block can be accessed from outside the block.
+                </p>
+                <br>
+                <br>
+                <div class="letcode2">
+                    <div id="letlaman2">
+                <h3>Example:</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    { <br>
+                        var x = 2; <br>
+                      } <br>
+                      // x CAN be used here
+                </p>
+                    </div>
+                </div>
+                <br>
+                <h3>Redeclaring Variables</h3>
+                <br>
+                <p>
+                    Redeclaring a variable using the var keyword can impose problems.
+                    <br> <br>
+                    Redeclaring a variable inside a block will also redeclare the variable outside the block:
+                </p>
+                <br>
+                <div class="letcode3">
+                    <div id="letlaman3">
+                <h3>Example:</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    var x = 10; <br> <br>
+                    // Here x is 10 <br> <br>
+
+                    { <br> <br>
+                    var x = 2; <br> <br>
+                    // Here x is 2 <br> <br>
+                    } <br> <br>
+
+                    // Here x is 2
+                </p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <p>
+                    Redeclaring a variable using the let keyword can solve this problem.
+                    <br> <br>
+                    Redeclaring a variable inside a block will not redeclare the variable outside the block:
+                </p>
+                <br>
+                  <div class="letcode3">
+                    <div id="letlaman3">
+                <h3>Example:</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    let x = 10; <br> <br>
+                    // Here x is 10 <br> <br>
+
+                    { <br> <br>
+                    let x = 2; <br> <br>
+                    // Here x is 2 <br> <br>
+                    } <br> <br>
+
+                    // Here x is 10
+                </p>
+                
+                    </div>
+                  </div>
+             </section>
+
+             <section id="const">
+                                <br>
+                <br>
+                <br>
+                <br>
+                <h2>JavaScript Const</h2>
+                <br>
+                <p>
+                    const is used to declare variables with block scope, <br> <br> like let, but its value cannot be reassigned once set. <br> <br> It provides a way to create constants.
+                </p>
+                <br>
+                <h3>remember:</h3>
+                <p>
+                    The const keyword was introduced in ES6 (2015)
+                    <br> <br>
+                    Variables defined with const cannot be Redeclared
+                    <br> <br>
+                    Variables defined with const cannot be Reassigned
+                    <br> <br>
+                    Variables defined with const have Block Scope
+                </p>
+                <br>
+                <h3>Cannot be Reassigned</h3>
+                <br>
+                <p>
+                    A const variable cannot be reassigned:
+                </p>
+                <br>
+                  <div class="constcode">
+                    <div id="constlaman">
+                <h3>Example:</h3>
+                <br>
+                <p style="color: rgb(184, 3, 184);">
+                    const PI = 3.141592653589793; <br>
+                    PI = 3.14;      // This will give an error <br>
+                    PI = PI + 10;   // This will also give an error 
+                </p>
+                    </div>
+                  </div>
+                <br>
+                <h3>Must be Assigned</h3>
+                <br>
+                <p>
+                    JavaScript const variables must be assigned a value when they are declared:
+                </p>
+                <br>
+                 <div class="constcode">
+                    <div id="constlaman">
+                <h3>Correct</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    const PI = 3.14159265359;
+                </p>
+                <h3>Incorrect</h3>
+                <p style="color: rgb(184, 3, 184);">
+                    const PI; <br>
+                    PI = 3.14159265359;
+                </p>
+                    </div>
+                 </div>
+             </section>
+
+             <section id="operators">
+                                <br>
+                <br>
+                <br>
+                <br>
+                <h2>JavaScript Operators</h2>
+                <br>
+                <p>
+                    JavaScript supports various operators for performing operations on variables and values. <br> <br> Common ones include arithmetic operators (+, -, *, /), <br> <br> comparison operators (==, ===, !=, !==), logical operators <br> <br> (&&, ||, !), and assignment operators (=, +=, -=, *=, /=).
+                </p>
+                <br>
+                <h3>Arithmetic Operators</h3>
+                <br>
+                <table>
+                    <tr>
+                        <th>Operators</th>
+                        <th>Descriptios</th>
+                    </tr>
+                    <tr>
+                        <td>+</td>
+                        <td>Addition</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>Subtraction</td>
+                    </tr>
+                    <tr>
+                        <td>*</td>
+                        <td>Multiplication</td>
+                    </tr>
+                    <tr>
+                        <td>**</td>
+                        <td>Exponentiation (ES2016)</td>
+                    </tr>
+                    <tr>
+                        <td>/</td>
+                        <td>Division</td>
+                    </tr>
+                    <tr>
+                        <td>%</td>
+                        <td>Modulus (Division Remainder)</td>
+                    </tr>
+                    <tr>
+                        <td>++</td>
+                        <td>Increment</td>
+                    </tr>
+                    <tr>
+                        <td>--</td>
+                        <td>Decrement</td>
+                    </tr>
+                </table>
+                <br>
+                <h3>Assignment Operators</h3>
+                <br>
+                <table>
+                    <tr>
+                        <th>Operators</th>
+                        <th>Example</th>
+                        <th>Same As</th>
+                    </tr>
+                    <tr>
+                        <td>=</td>
+                        <td>x = y</td>
+                        <td>x = y</td>
+                    </tr>
+                    <tr>
+                        <td>+=</td>
+                        <td>x += y</td>
+                        <td>x = x + y</td>
+                    </tr>
+                    <tr>
+                        <td>-=</td>
+                        <td>x -= y</td>
+                        <td>x = x - y</td>
+                    </tr>
+                    <tr>
+                        <td>*=</td>
+                        <td>x *= y</td>
+                        <td>x = x * y</td>
+                    </tr>
+                    <tr>
+                        <td>/=</td>
+                        <td>x /= y</td>
+                        <td>x = x / y</td>
+                    </tr>
+                    <tr>
+                        <td>%=</td>
+                        <td>x %= y</td>
+                        <td>x = x % y</td>
+                    </tr>
+                    <tr>
+                        <td>**=</td>
+                        <td>x **= y</td>
+                        <td>x = x ** y</td>
+                    </tr>
+                </table>
+                <br>
+                <h3>Comparison Operators</h3>
+                <br>
+                <table>
+                    <tr>
+                        <th>Operators</th>
+                        <th>Descriptios</th>
+                    </tr>
+                    <tr>
+                        <td>==</td>
+                        <td>equal to</td>
+                    </tr>
+                    <tr>
+                        <td>===</td>
+                        <td>equal value and equal type</td>
+                    </tr>
+                    <tr>
+                        <td>!=</td>
+                        <td>not equal</td>
+                    </tr>
+                    <tr>
+                        <td>!==</td>
+                        <td>not equal value or not equal type</td>
+                    </tr>
+                    <tr>
+                        <td>></td>
+                        <td>greater than</td>
+                    </tr>
+                    <tr>
+                        <td><</td>
+                        <td>less than</td>
+                    </tr>
+                    <tr>
+                        <td>>=</td>
+                        <td>greater than or equal to</td>
+                    </tr>
+                    <tr>
+                        <td><=</td>
+                        <td>less than or equal to</td>
+                    </tr>
+                    <tr>
+                        <td>?</td>
+                        <td>ternary operator</td>
+                    </tr>
+                </table>
+                <br>
+                <h3>Logical Operators</h3>
+                <br>
+                <table>
+                    <tr>
+                        <th>Operators</th>
+                        <th>Descriptios</th>
+                    </tr>
+                    <tr>
+                        <td>&&</td>
+                        <td>logical and</td>
+                    </tr>
+                    <tr>
+                        <td>||</td>
+                        <td>logical or</td>
+                    </tr>
+                    <tr>
+                        <td>!</td>
+                        <td>logical not</td>
+                    </tr>
+                </table>
+                <br>
+                <h3>Type Operators</h3>
+                <br>
+                <table>
+                    <tr>
+                        <th>Operators</th>
+                        <th>Descriptios</th>
+                    </tr>
+                    <tr>
+                        <td>typeof</td>
+                        <td>Returns the type of a variable</td>
+                    </tr>
+                    <tr>
+                        <td>instanceof</td>
+                        <td>Return true if an objects is an instance of an object type</td>
+                    </tr>
+                </table>
+                <br>
+                <h3>Bitwise Operators</h3>
+                <br>
+                <table>
+                    <tr>
+                        <th>Operators</th>
+                        <th>Descriptios</th>
+                        <th>Example</th>
+                        <th>Same as</th>
+                        <th>Result</th>
+                        <th>Decimal</th>
+                    </tr>
+                    <tr>
+                        <td>&</td>
+                        <td>and</td>
+                        <td>5 & 1</td>
+                        <td>0101 & 0001</td>
+                        <td>0001</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>|</td>
+                        <td>or</td>
+                        <td>5 | 1</td>
+                        <td>0101 | 0001</td>
+                        <td>0101</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>~</td>
+                        <td>not</td>
+                        <td>~5</td>
+                        <td>~0101</td>
+                        <td>1010</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>^</td>
+                        <td>xor</td>
+                        <td>5 ^ 1</td>
+                        <td>0101 ^ 0001</td>
+                        <td>0100</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><<</td>
+                        <td>left shift</td>
+                        <td>5 << 1</td>
+                        <td>0101 << 1</td>
+                        <td>1010</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>>></td>
+                        <td>right shift</td>
+                        <td>5 >> 1</td>
+                        <td>0101 >> 1</td>
+                        <td>0010</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>>>></td>
+                        <td>unsigned right shift</td>
+                        <td>5 >>> 1</td>
+                        <td>0101 >>> 1</td>
+                        <td>0010</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+             </section>
+             
+             </div>
+        </div>
+        
+            
+             
+      <script src="final3.js"></script>
+      <script src="darkmode.js"></script>
+   </body>
+</html>

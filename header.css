@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+.head {
+    background-image: linear-gradient(rgb(84, 1, 84), rgb(18, 1, 61));
+}
+header {
+    background-image: linear-gradient(rgb(83, 1, 83), rgb(18, 1, 61));
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;  
+    box-shadow: 0 0 10px 2px plum;
+    width: 100%;       
+  
+}
+.tatak {
+    cursor: pointer;
+    height: 70px;
+    width: auto;
+    margin-right: auto;
+}   
+
+/* NAVIGATION BUTTON */
+
+.headline {
+    display: inline-block;
+    color: white;
+    padding-top: 5px;
+}
+.home {
+       
+    background: transparent;
+       margin-left: 10px;
+       position: relative;
+       font-size: 14px;
+       font-weight: bold;
+       padding:1em 1em;
+       color: white;
+       cursor: pointer;
+       font-family: 'Inter';
+       
+}
+.home:hover {
+        color: white;
+        background-color: plum;
+        border-radius: 13px;
+        background-color: transparent;
+         border: solid white;
+}
+.html1 {
+    background: transparent;
+       margin-left: 10px;
+       position: relative;
+       font-size: 14px;
+       font-weight: bold;
+       color: white;
+       cursor: pointer;
+       padding:1em 1em;
+       font-family: 'Inter';
+       
+       
+}
+.html1:hover {
+        color: white;
+        background-color: plum;
+        border-radius: 13px;
+        background-color: transparent;
+         border: solid white;
+}
+.css {
+        background-color: transparent;
+        margin-left: 10px;
+        position: relative;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        padding: 1em 1em;
+        border-radius: 13px;
+        font-family: 'Inter';
+        
+ }
+ .css:hover {
+         color: white;
+         background-color: transparent;
+         border: solid white;
+         
+}
+.javascript {
+        
+        background: transparent;
+        margin-left: 10px;
+        position: relative;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        border-radius: 13px;
+        padding: 1em 1em;
+        
+ }
+ .javascript:hover {
+    border-radius: 13px;
+         color: white;
+         background-color: plum;
+         background-color: transparent;
+         border: solid white;
+}
+.hyper {
+    color: white;
+}
+

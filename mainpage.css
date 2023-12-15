@@ -1,0 +1,632 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+html {
+  scroll-behavior:smooth;
+}
+body {
+  
+  margin: 0;
+  padding: 0;
+}
+.seconddiv {
+  width: 100%;
+  height: 100vh;
+}
+/*First page with introductory*/
+.thirddiv {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: visible;
+  margin-bottom: 52%;
+
+  
+}
+.thirddiv1 {
+ 
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  margin-top: 7.5%;
+  margin-left: 5.5%;
+  
+  
+}
+.navbutton {
+  border: red solid 1px;
+  margin-top: -53%;
+  margin-left: 32%;
+
+}
+.tutorialbutton,.videobutton,.librarybutton {
+  margin-left: 4%;
+  text-decoration: none;
+  color: white;
+  font-family: 'Inter';
+  width: max-content;
+}
+.librarybutton:hover {
+  cursor: pointer;
+}
+.navbutton a {
+  position: relative;
+  text-decoration: none;
+  color: white; 
+   
+}
+
+.navbutton a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 2px;
+  width: 0;
+  left: 0;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbutton a:hover::after {
+  width: 100%;
+}
+
+
+.master {
+  font-family:'Tilt Warp';
+  font-size: 70px;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: white;
+  
+}
+
+.unlock {
+  color: white;
+  font-size: 17px;
+  font-family: 'Inter';
+  margin-right: 9%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.mainpic {
+  height: 100%;
+  width: 100%;
+}
+
+/*last of first page with introductory*/
+.fourthdiv {
+  background-color: white;
+  display: block;
+  width: 100%;
+  height: 83%;
+}
+.fourthdiv h1 {
+  font-family: 'Tilt Warp';
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 0;
+  margin-top: 1%;
+  color: #55008d;
+  letter-spacing: 1px;
+}
+.fourthdiv .explore {
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: 'Inter';
+  margin-top: 8px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.tutorialsdiv > div {
+  margin-top: 2%;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, #8e24aa, #311b92); 
+  width: 15%;
+  height: 45vh;
+  display: inline-block;
+  margin-right: 3%;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.htmltutorial {
+  margin-left: 24%;
+}
+.htmltutorial img  {
+  height: 35%;
+  width: auto;
+  align-items: center;
+  margin-top: 8%;
+  margin-left: 28%;
+  display: block;
+  margin-bottom: 0;
+
+}
+.htmltitle, .csstitle,.jstitle {
+  margin-left: 34%;
+  margin-top: 3%;
+  margin-bottom: 0;
+  color: white;
+}
+.htmltext, .csstext, .jstext {
+  color: white;
+  line-height: 1.4;
+  margin-top: 7%;
+  font-size: 110%;
+  text-align: center;
+  margin-bottom: 0%;
+}
+.htmlbutton {
+  margin-top: 30.2%;
+}
+.htmlbutton, .cssbutton, .jsbutton {
+  font-size: 110%;
+  padding-right: 25%;
+  padding-left: 25%;
+  
+  width: 100%;
+  border: none;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  border-radius: 35px;
+  color: white;
+  background-color: #a117bd;
+}
+.csstitle {
+  margin-left: 40%;
+}
+.cssbutton {
+  margin-top: 28.2%;
+}
+.htmlbutton:hover, .cssbutton:hover, .jsbutton:hover {
+  background-color: #ad3ec4;
+  cursor: pointer;
+}
+.csstutorial img {
+  height: 35%;
+  width: auto;
+  margin-top: 8%;
+  margin-left: 28%;
+  margin-bottom: 0;
+}
+
+.jstutorial img {
+  height: 35%;
+  width: auto;
+  margin-top: 8%;
+  margin-left: 25%;
+  margin-bottom: 0;
+}
+.jstitle {
+  margin-left: 15% !important;
+}
+.jsbutton {
+  margin-top: 28.2%;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/*End of second page with tutorials*/
+
+.fifthdiv {
+  background-color: #eceff1;
+  height: 90%;
+  width: 100%;
+}
+.aboutusdiv {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.aboutusimage {
+  height: 84%;
+  width: auto;
+  margin-top: 3.5%;
+  margin-right: 6%;
+  display: inline-block;
+  
+}
+.aboutusdiv2 {
+  margin-left: 7%;
+  width: 40%;
+  margin-right:5%;
+  margin-left: 10%;
+  
+}
+.aboutusdiv2 h1 {
+  font-size: 60px;
+  font-family: 'Tilt Warp';
+  color: #55008d;
+  letter-spacing: 1px;
+  margin-left: 30%;
+  margin-top: 25%;
+}
+.aboutusdiv2 p {
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: 'Inter';
+  margin-top: 8px;
+  color: black;
+  letter-spacing: 1px;
+}
+/*End of aboutus page*/
+.contributorsdiv {
+  height: 100%;
+  width: 100%;
+}
+.contributorsdiv h1 {
+  font-size: 60px;
+  font-family: 'Tilt Warp';
+  color: #55008d;
+  margin-top: 2.5%;
+  text-align: center;
+  margin-bottom: 0;
+}
+.contributorsdiv p {
+  text-align: center;
+  font-size: 17px;
+  color: black;
+  letter-spacing: 1px;
+  margin-left: 25%;
+  margin-right: 25%;
+  line-height: 1.5;
+  font-family: 'Inter';
+}
+.contributorsdiv2 {
+  height: 65%;
+  width: auto;
+
+}
+.ayandiv,.jamesdiv,.alydiv {
+  border: rgb(156, 18, 156) solid 2px;
+  height: 25%;
+  width: 30%;
+  display: block;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 2%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(209, 54, 209), rgb(101, 10, 161));
+  box-shadow: 5px 5px 7px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.ayanpic,.jamespic,.alypic {
+  border-radius: 50%;
+  height: 90%;
+  width: auto;
+  margin-top: 1.5%;
+  margin-left: 8%;
+  border: white solid 1px;
+  
+}
+.ayandiv > div,.jamesdiv > div,.alydiv > div{
+ height: 89%;
+ width: 63%;
+ margin-left: 35%;
+ margin-top: -27%;
+ 
+}
+.ayanname,.jamesname,.alyname {
+  color: white !important;
+  font-family: 'Inter' !important;
+  font-size: 150% !important;
+  margin-top: 5% !important;
+  margin-bottom: 0;
+}
+.section {
+  margin-top: 2% !important;
+  color: white !important;
+}
+
+
+.fbimage {
+  width: 10%;
+}
+.contactbutton {
+  background-color: white;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+  margin-left: 31.5%;
+  margin-top: -1%;
+  height: 20%;
+  width: 37%;
+  border-radius: 50px;
+  display: inline-flex;
+}
+.contacttext {
+  color: black;
+  display: inline-flex;
+  margin-top:1.3%;
+  margin-left: 9%;
+  font-size: 95%;
+  text-decoration: none;
+}
+.contactbutton:hover {
+  cursor: pointer;
+  
+}
+.fblogo {
+  height: 100%;
+}
+.reveals {
+  opacity: 0;
+  transform: translateX(-50px); 
+  transition: all 2s ease, transform 0.5s ease;
+}
+
+.reveals.revealed {
+  opacity: 1;
+  transform: translateX(0); 
+}
+
+/*End of contributors page*/
+
+.whydiv {
+  background-color: #4d0062;
+  height: 85%;
+}
+.whyusdiv {
+  width: auto;
+  height: 100%;
+}
+.whyusimage {
+  height: 90%;
+  width: auto;
+  margin-top: 4%;
+  margin-left: 5%;
+  display: inline-flex;
+}
+.whyusdiv2 {
+  width: 40%;
+  height: 60%;
+  margin-left: 50%;
+  margin-top: -32%;
+
+}
+.whyusdiv2 > h1 {
+  color: white;
+  font-family: 'Tilt Warp' ;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.whyusdiv2 > p {
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-family: 'Inter';
+}
+/*End of whyus div */
+
+.designdiv {
+  border: #4d0062 solid 1px;
+  height: 95%;
+  background-color: #4d0062;
+}
+.designimage {
+  height: 85%;
+  object-fit: cover;
+  margin-left: 50%;
+  margin-top: -40%;
+}
+.anubayan {
+  height: 88%;
+}
+.designdiv2 {
+  width: 40%;
+  height: 80%;
+  margin-top: 12%;
+  margin-left: 9%;
+}
+ 
+.create {
+  color: white;
+  margin-top: 0;
+  font-family: 'Tilt Warp' ;
+  letter-spacing: 1px;
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+}
+.designtext {
+ color: white;
+ text-align: center;
+ font-family: 'Inter';
+ line-height: 1.5;
+ letter-spacing: 1px;
+ margin-top: 7%;
+}
+.designdiv3 {
+  height: 10%;
+  margin-top: -6.5%;
+}
+.designdiv3 img {
+  height: 100%;
+  width: 100%;
+  
+}
+.backtotopdiv {
+  margin-top: 20%;
+}
+.backtotop {
+  margin-left: 42%;
+  border: solid white 1px;
+  background-color: transparent;
+  padding: 1.5%;
+  font-size: 96%;
+  border-radius: 20px;
+  color: white;
+  transition: all 300ms ease;
+  text-decoration: none;
+}
+.backtotop:hover {
+  color: aqua;
+  border-color: aqua;
+}
+
+.backtotop:hover {
+  cursor: pointer;
+}
+
+/*end of design div*/
+
+
+
+
+
+
+/*
+@media screen and (max-width: 800px) {
+  
+  .thirddiv1 {
+    width: 36%; 
+    height: auto; 
+    margin-top: -46%;
+    
+  }
+
+  .master {
+    font-size: 120%; /* Adjust font size for smaller screens 
+  }
+
+  .unlock {
+    
+    font-size: 6%;
+  }
+
+
+}*/
+
+body.active-popup .maindiv {
+  filter: blur(6px);
+  background: rgba(0, 0, 0, 0.1);
+  transition: filter 0ms ease-in 600ms ease-out ;
+  pointer-events: none;
+}
+body.active-popup .popup {
+  box-shadow: 0 0 50px 5px rgba(134, 134, 134, 0.7);
+  margin-bottom: 100px;
+  opacity: 1;
+  
+  z-index: 1;
+}
+.popup {
+  position: absolute;
+  margin-left: 27%;
+  margin-top: -37%;
+  width: 650px;
+  height: 350px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 4px 4px 3px 5px rgba(0, 0, 0, 0.1);
+  transition: all 300ms ease-in-out;
+  opacity: 0;
+  z-index: -1;
+  margin-bottom: 200px;
+  
+}
+
+
+.popup .closebutton {
+  z-index: 9999;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  background: rgba(94, 94, 94, 0.582);
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+.popupdiv {
+  height: 20%;
+  width: auto;
+  margin-top: 1%;
+}
+.popupdiv h1 {
+  text-align: center;
+  font-family: 'Tilt Warp';
+  font-size: 50px;
+  margin: 0;
+  color:#4d0062;
+}
+.popupdiv2 {
+  height: 75%;
+  width: auto;
+  
+}
+.librarytext {
+  margin-top: 0;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-family: 'Inter';
+}
+.filetitle {
+ display: inline-block;
+ font-size: 90%;
+ font-family: 'inter';
+ margin-left: 2%;
+}
+.htmldownloadbutton {
+  margin-left: 1%;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 201, 60);
+  border-radius: 5px;
+  padding: 7px;
+  text-decoration: none;
+}
+.jsdownloadbutton {
+  margin-left: 5%;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 201, 60);
+  border-radius: 5px;
+  padding: 7px;
+  text-decoration: none;
+}
+.cssdownloadbutton {
+  margin-left: 3%;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 201, 60);
+  border-radius: 5px;
+  padding: 7px;
+  text-decoration: none;
+}
+.htmldownloadbutton:hover,.jsdownloadbutton:hover,.cssdownloadbutton:hover {
+  cursor: pointer;
+  background-color: rgb(88, 209, 88);
+}
+.firsthr {
+  margin-top: 4%;
+  margin-bottom: 0%;
+}
+

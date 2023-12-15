@@ -1,0 +1,184 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+.html {
+    height: 90px;
+    width: auto;
+    display: inline-block;
+}
+.intro {
+    font-size: 20px;
+    display: inline-block;
+}
+.tao {
+    height: 250px;
+    width: auto;
+    margin-left: 500px;
+    display: inline-block;
+}
+.syntaxcode {
+    font-size: 20px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 200px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.document {
+    font-size: 20px;
+}
+h2 {
+    color: lightskyblue;
+    font-size: 40px;
+    text-underline-position: white;
+    font-weight: bold;
+}
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+xmp {
+    color: rgb(184, 3, 184);
+    font-size: 18px;
+    font-weight: 1000;
+    text-underline-position: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table, th, td {
+    border: 1px solid var(--primary-color);
+    padding: 5px;
+    margin-left: 100px;
+}
+h3 {
+    color: rgb(115, 194, 220);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tablescode {
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 520px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.exampletable {
+    border: 2px solid rgb(147, 145, 145);
+    border-radius: 25px;
+    background-color: rgb(148, 141, 141);
+    opacity: 1;
+    box-shadow: 0 0 20px 5px rgb(140, 140, 140) ;
+}
+.exampletable h3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.tableoutput {
+    margin-left: 115px;
+    margin-bottom: 50px;
+}
+.welcome {
+    color: lightskyblue;
+    font-size: 50px;
+    font-family: "Black Ops One", sans-serif;
+}
+.addinline {
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 300px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.addinternal{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 600px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.addexternal{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 330px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.dot{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 600px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.dot p {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: var(--primary-color);
+}
+.bordercode{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 350px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.margincode{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 200px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.paddingcode{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 200px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.commentscode{
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    height: 230px;
+    width: 1220px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.cssvid{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 2px plum;
+    border-radius: 20px;
+}
+.usoglahat {
+    margin-left: 100px;
+}
+:root {
+    --primary-color: aliceblue;
+    --secondary-color: black;
+}
+.dark-theme {
+    --primary-color: black;
+    --secondary-color: aliceblue;
+}

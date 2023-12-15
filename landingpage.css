@@ -1,0 +1,84 @@
+body {
+  background-image: url('landingpage.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.codestartup {
+  font-family: 'Oilvare Base';
+  color: #44005d;
+  font-size: 69px;
+  line-height: 1.08;
+  margin-left: 4%;
+  margin-top: 12%;
+  position: relative;
+  margin-bottom: 0;
+}
+.codestartupdiv {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.mastering {
+  margin-top: 10;
+  font-family: 'Knockout-32JuniorCruisewt';
+  margin-right: 60%;
+  margin-left: 4%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.explorebutton {
+  border: white solid 2px;
+  font-size: 105%;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  padding-top: 0.7%;
+  width: 80px;
+  height: 30px;
+  margin-top: 12.5%;
+  margin-left: 13.5%;
+  text-decoration: none;
+}
+.explorebutton:hover {
+  border: palevioletred solid 2px;
+  color: palevioletred ;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.blinking-line {
+  animation: blink-caret 0.75s infinite;
+}
+
+.codestartup, .mastering {
+  opacity: 0; 
+  position: relative;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.codestartup, .mastering {
+  animation: slideIn 1.5s ease forwards; 
+}
+#loadingBar {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+#progressBar {
+  height: 20px;
+  background-color: #3498db;
+  width: 0;
+}
